@@ -1,0 +1,24 @@
+.intro__title{
+    max-width: 690px;
+    height: 58px;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 107%;
+    color: white;
+    margin: 0;
+}
+@media screen and (max-width: 680px){ /* это из-за того, что заголовок не влезает на экран!!!*/
+    .intro__title{
+        font-size: calc(54px/1.5);
+        line-height: 140%;
+        
+    }
+}
+@media screen and (max-width: 320px){
+    .intro__title{
+        font-size: 32px;
+        line-height: 109%;
+    }
+}
+
+

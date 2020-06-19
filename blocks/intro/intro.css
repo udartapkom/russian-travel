@@ -1,0 +1,34 @@
+@import url("__list/intro__list.css");
+@import url("__text/intro__text.css");
+@import url("__title/intro__title.css");
+@import url("__list-style/intro__list-style.css");
+@import url("__list-item/intro__list-item.css");
+@import url("__span-normalize/intro__span-normalize.css");
+
+.intro{
+    font-family: 'Inter', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-top: 92px;
+    padding-left: 148px;
+    max-width: 690px;
+}
+@media screen and (max-width: 1024px){  
+    .intro{
+        padding-left: 48px;
+        padding-top: 88px;
+    } 
+}
+@media screen and (max-width: 768px){  
+    .intro{
+        padding-left: 24px;
+        padding-top: 88px;  
+    } 
+}
+@media screen and (max-width: 320px){  
+    .intro{
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 64px;  
+    } 
+}

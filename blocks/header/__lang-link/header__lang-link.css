@@ -1,0 +1,18 @@
+@import url("_lang-link_decoration/lang-link_decoration_none.css");
+.header__lang-link{
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 117%;
+    color: white;
+    padding-left: 18px;
+}
+.header__lang-link:hover{
+    opacity: 0.3;
+    transition: linear .3s;
+}
+@media screen and (max-width: 320px){
+    .header__lang-link{
+        font-size: 18px;
+        line-height: 133%;
+    }
+}

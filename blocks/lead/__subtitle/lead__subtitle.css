@@ -1,0 +1,27 @@
+.lead__subtitle{
+    font-family: "Inter", Arial, sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 120%;
+    max-width: 640px;
+    padding-top: 32px; 
+    
+}
+@media screen and (max-width: 680px){ /* это из-за того, что заголовок не влезает на экран!!!*/
+    .lead__subtitle{
+        font-size: calc(30px/1.5);
+        line-height: 110%;
+        max-width: 340px;
+    }
+}
+@media screen and (max-width: 320px){  
+    .lead__subtitle{
+        font-size: 16px;
+        line-height: 125%;
+        padding-left: 18px;
+        padding-right: 18px; 
+        padding-top: 16px;
+    }
+}
