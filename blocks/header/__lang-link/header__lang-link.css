@@ -5,9 +5,10 @@
     line-height: 117%;
     color: white;
     padding-left: 18px;
+    text-decoration: none;
 }
 .header__lang-link:hover{
-    opacity: 0.3;
+    opacity: 0.8;
     transition: linear .3s;
 }
 @media screen and (max-width: 320px){

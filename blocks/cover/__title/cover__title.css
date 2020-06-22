@@ -9,30 +9,36 @@
     margin: 0 auto;
     padding-top: 245px;
     z-index: 1;
-    text-decoration: none;
-    
+        
 }
-.cover__title:hover {
+/*.cover__title:hover {
     opacity: 0.8;
-transition: linear .3s
-}
+    transition: linear .3s
+} */
 @media screen and (max-width: 1024px){  
         .cover__title{
         padding-top: 195px;
     }
 }
+@media screen and (max-width: 768px){
+        .cover__title{
+        padding-top: 115px;
+        }
+}
+
 @media screen and (max-width: 480px){  
-    .cover__title{
-    padding-top: 32px;
-    max-width: 400px;
-    font-size: 56px;
+        .cover__title{
+        padding-top: 32px;
+        max-width: 400px;
+        font-size: 56px;
 }
 } 
 @media screen and (max-width: 320px){  
         .cover__title{
         font-size: 32px; 
         line-height: 109%;
-        padding-top: 33px;             
+        padding-top: 33px;  
+        max-width: 250px;           
     }
 }
 

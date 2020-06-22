@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 680px){ /* это из-за того, что заголовок не влезает на экран!!!*/
     .lead__title{
-        font-size: calc(96px/2);
+        font-size: calc(96px/2.2);
         line-height: 110%;
         max-width: 340px;
         margin: 0 auto;

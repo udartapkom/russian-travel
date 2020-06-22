@@ -3,20 +3,13 @@
     font-size: 12px;
     line-height: 100%;
     color: white;
-    display: grid;
-    align-self: end;
-    justify-self: start;
     margin: 0;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
     
 }
 @media screen and (max-width: 480px){ /* повышаю читаемость */
     .place__website-url{
         padding-top: 16px;
-    }
-}
-
-@media screen and (max-width: 320px){
-    .place__website-url{
-        display: none;
     }
 }

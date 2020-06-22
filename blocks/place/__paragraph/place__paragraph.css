@@ -8,19 +8,12 @@
     display: grid;
     align-self: baseline;
 }
-/*.place__paragraph:last-of-type{
-    padding-bottom: 0px;
-    padding-top: 32px;
-}*/
+.place__paragraph:last-of-type{
+    padding-bottom: 0;
+}
 @media screen and (max-width: 768px){  
     .place__paragraph{
         font-size: 16px;
-        line-height: 162%;
+        line-height: 163%;
     }
 } 
-
-/*@media screen and (max-width: 320px){  
-    .place__paragraph:last-of-type{
-        padding-top: 32px;
-    }
-}*/

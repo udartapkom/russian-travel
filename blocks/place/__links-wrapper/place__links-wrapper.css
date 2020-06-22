@@ -1,0 +1,14 @@
+@import url("__link/place__link.css");
+@import url("__website-url/place__website-url.css");
+.place__links-wrapper{
+    display: grid;
+    align-self: end;
+    justify-self: start;
+    margin: 0;
+}
+
+@media screen and (max-width: 320px){
+    .place__links-wrapper{
+        display: none;
+    }
+}
