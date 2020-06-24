@@ -1,9 +1,9 @@
 @import url("__logo/header__logo.css");
 @import url("__lang-links/header__lang-links.css");
 @import url("__lang-link/header__lang-link.css");
-@import url("__lang-link/_lang-link_decoration/lang-link_decoration_active.css");
+@import url("__lang-link/_decoration/header__lang-link_decoration_active.css");
 .header{
-    font-family: "Inter-Regular", Arial, sans-serif;
+    font-family: "Inter", Arial, sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;

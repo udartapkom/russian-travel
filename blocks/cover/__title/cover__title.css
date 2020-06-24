@@ -25,12 +25,17 @@
         padding-top: 115px;
         }
 }
+@media screen and (max-width: 520px){
+        .cover__title{
+            font-size: 66px;
+    }
+}
 
 @media screen and (max-width: 480px){  
         .cover__title{
         padding-top: 32px;
-        max-width: 400px;
-        font-size: 56px;
+        max-width: 340px;
+        font-size: 46px;
 }
 } 
 @media screen and (max-width: 320px){  
